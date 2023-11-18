@@ -1,0 +1,86 @@
+:root{font-family: 'Inter', sans-serif}
+
+body{
+    background-color: #F4A261;
+    color:#FFFF;
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    width: 400px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 16px;
+    border: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin:20px;
+}
+#login-btn{
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 16px;
+}
+h1{
+    line-height: 7px;
+    font-weight: 600;
+    font-size: 28px;
+}
+h2{
+    font-size: 48px;
+    max-width: 500px;
+}
+h3{
+    line-height: 0;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+aside{
+    line-height: 42px;
+}
+
+a{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+a:hover{
+    color: #E76F51;
+    transition: 0.3s all;
+}
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.2rem;
+}
+.livro{
+    scroll-snap-align: start;
+    border-radius: 20px;
+    height: 200px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.livro:hover{
+    color: gray;
+    transition: 0.3s all;
+}
